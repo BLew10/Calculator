@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="calculator.css">
+</head>
+
+<body>
+
+    <div class="main">
+        <div class="top-row">
+            <div class="switch"><p id="button"></p></div>
+            <div id="display" class="default-display">0</div>
+        </div>
+        <div class="row">
+            <p class="nums">9</p>
+            <p class="nums">8</p>
+            <p class="nums">7</p>
+            <p id="multiply" class="operation">*</p>
+        </div>
+        <div class="row">
+            <p class="nums">6</p>
+            <p class="nums">5</p>
+            <p class="nums">4</p>
+            <p id="divide" class="operation">/</p>
+        </div>
+        <div class="row">
+            <p class="nums">3</p>
+            <p class="nums">2</p>
+            <p class="nums">1</p>
+            <p id="add" class="operation">+</p>
+
+        </div>
+        <div class="row">
+            <p id="clears">C</p>
+            <p class="nums">0</p>
+            <p id="decimals">.</p>
+            <p id="substract" class="operation">-</p>
+
+        </div>
+        <p id="equals" onclick="equals()">=</p>
+    </div>
+    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+    <script src="calculator.js" async defer></script>
+</body>
+
+</html>
